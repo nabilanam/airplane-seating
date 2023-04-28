@@ -1,0 +1,26 @@
+{
+  "name": "airplane-seating",
+  "version": "1.0.0",
+  "description": "Airplane Seating",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 \"src/views/**/*\" dist/",
+    "start": "node dist/",
+    "test": "ts-node-test tests/"
+  },
+  "keywords": [],
+  "author": "nabilanam",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ejs": "^3.1.2",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.1",
+    "copyfiles": "^2.4.1",
+    "ts-node-test": "^0.4.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
